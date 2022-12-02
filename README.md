@@ -11,14 +11,14 @@ How to use:
 Example config:
 ```
 sensor:
-    - platform: imap_email_content_alt
-        name: Citi Card Transactions
-        server: imap.gmail.com
-        port: 993
-        username: YOUR_USERNAME
-        password: YOUR_PASSWORD
-        folder: YOUR_FOLDER
-        senders:
-            - example@gmail.com
-        force_html: true
+  - platform: imap_email_html_content
+    name: Citi Card Transactions
+    server: imap.gmail.com
+    port: 993
+    username: YOUR_USERNAME
+    password: YOUR_PASSWORD
+    folder: YOUR_FOLDER
+    senders:
+      - example@gmail.com
+    force_html: true
 ```
