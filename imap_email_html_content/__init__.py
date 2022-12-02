@@ -1,1 +1,1 @@
-"""The imap_email_content_alt component."""
+"""The imap_email_html_content component."""

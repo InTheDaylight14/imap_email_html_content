@@ -1,5 +1,5 @@
 {
-  "domain": "imap_email_content_alt",
+  "domain": "imap_email_html_content",
   "name": "Custom IMAP Email Content",
   "documentation": "https://www.home-assistant.io/integrations/imap_email_content",
   "codeowners": [],
